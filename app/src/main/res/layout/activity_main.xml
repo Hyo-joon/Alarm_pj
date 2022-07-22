@@ -4,88 +4,126 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#E7F1F3"
+    android:background="#F2F5F6"
     tools:context=".MainActivity">
 
     <LinearLayout
         android:id="@+id/linearLayout"
-        android:layout_width="313dp"
-        android:layout_height="38dp"
+        android:layout_width="364dp"
+        android:layout_height="48dp"
+        android:background="@drawable/round_layout"
 
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.519">
+        app:layout_constraintVertical_bias="0.474">
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/button_mon"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="6.5dp"
             android:background="@drawable/shape_for_circle_button"
             android:text="월"
-            android:textSize="13sp"
+            android:textSize="15sp"
             tools:ignore="TouchTargetSizeCheck" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/button_tue"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_marginLeft="15dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="6.5dp"
             android:background="@drawable/shape_for_circle_button"
             android:text="화"
             android:textSize="13sp" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/button_wed"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_marginLeft="15dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="6.5dp"
             android:background="@drawable/shape_for_circle_button"
             android:text="수"
-            android:textSize="13sp"
+            android:textSize="15sp"
             tools:ignore="TouchTargetSizeCheck" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/button_thu"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_marginLeft="15dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="6.5dp"
             android:background="@drawable/shape_for_circle_button"
             android:text="목"
-            android:textSize="13sp"
+            android:textSize="15sp"
             tools:ignore="TouchTargetSizeCheck" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/button_fri"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_marginLeft="15dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="6.5dp"
             android:background="@drawable/shape_for_circle_button"
             android:text="금"
-            android:textSize="13sp"
+            android:textSize="15sp"
             tools:ignore="TouchTargetSizeCheck" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/button_sat"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_marginLeft="15dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="6.5dp"
             android:background="@drawable/shape_for_circle_button"
             android:text="토"
-            android:textSize="13sp"
+            android:textSize="15sp"
             tools:ignore="TouchTargetSizeCheck" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/button_sun"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_marginLeft="15dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="6.5dp"
             android:background="@drawable/shape_for_circle_button"
             android:text="일"
-            android:textSize="13sp"
+            android:textSize="15sp"
             tools:ignore="TouchTargetSizeCheck" />
     </LinearLayout>
+
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="25dp"
+        android:gravity="bottom"
+        android:text="반복"
+        android:textColor="@color/black"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.081"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.403" />
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="25dp"
+        android:gravity="bottom"
+        android:text="매일"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.837"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.403" />
 
     <CheckBox
         android:id="@+id/checkBox2"
@@ -93,11 +131,10 @@
         android:layout_height="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.834"
+        app:layout_constraintHorizontal_bias="0.916"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.453" />
-
+        app:layout_constraintVertical_bias="0.409" />
 
     <NumberPicker
         android:id="@+id/time_hour"
@@ -159,6 +196,47 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.056" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button"
+        android:layout_width="379dp"
+        android:layout_height="56dp"
+        android:background="@drawable/butto_radius"
+        android:text="저장"
+        android:textSize="18dp"
+
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.997" />
+
+    <View
+        android:layout_width="390dp"
+        android:layout_height="1dp"
+        android:background="#888888"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.546" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="386dp"
+        android:layout_height="56dp"
+        android:background="@drawable/mission_round"
+        android:gravity="start"
+        android:padding="5dp"
+        android:text="미션"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.62" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
