@@ -44,7 +44,9 @@ class Alarm_mission_setting : Fragment() {
             findNavController().navigate(R.id.action_alarm_mission_setting_to_alarm_settinga2)
         }
 
-
+        binding.missionFollow.setOnClickListener {
+            findNavController().navigate(R.id.action_alarm_mission_setting_to_mission_follow2)
+        }
     }
     override fun onDestroyView() {
         super.onDestroyView()

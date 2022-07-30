@@ -309,7 +309,7 @@
         app:layout_constraintVertical_bias="0.604" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/bell_sound"
         android:layout_width="386dp"
         android:layout_height="56dp"
         android:background="@drawable/mission_round"

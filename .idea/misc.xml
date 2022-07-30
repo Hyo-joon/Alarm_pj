@@ -21,8 +21,10 @@
         <entry key="..\:/Users/PC/AndroidStudioProjects/Alarm/app/src/main/res/drawable/walk_size.xml" value="0.4145" />
         <entry key="..\:/Users/PC/AndroidStudioProjects/Alarm/app/src/main/res/layout/activity_main.xml" value="0.5" />
         <entry key="..\:/Users/PC/AndroidStudioProjects/Alarm/app/src/main/res/layout/bell_sound_activity.xml" value="0.5526041666666667" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Alarm/app/src/main/res/layout/fragment_alarm_bell_sound.xml" value="0.5536458333333333" />
         <entry key="..\:/Users/PC/AndroidStudioProjects/Alarm/app/src/main/res/layout/fragment_alarm_mission_setting.xml" value="0.5390625" />
         <entry key="..\:/Users/PC/AndroidStudioProjects/Alarm/app/src/main/res/layout/fragment_alarm_settinga.xml" value="0.5536458333333333" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Alarm/app/src/main/res/layout/fragment_mission_follow.xml" value="0.5" />
         <entry key="..\:/Users/PC/AndroidStudioProjects/Alarm/app/src/main/res/layout/mission_activity.xml" value="0.5526041666666667" />
         <entry key="..\:/Users/PC/AndroidStudioProjects/Alarm/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1645" />
       </map>

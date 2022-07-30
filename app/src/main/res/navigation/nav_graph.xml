@@ -22,5 +22,17 @@
         <action
             android:id="@+id/action_alarm_mission_setting_to_alarm_settinga2"
             app:destination="@id/alarm_settinga" />
+        <action
+            android:id="@+id/action_alarm_mission_setting_to_mission_follow2"
+            app:destination="@id/mission_follow2" />
+    </fragment>
+    <fragment
+        android:id="@+id/mission_follow2"
+        android:name="com.example.alarm.mission_follow"
+        android:label="fragment_mission_follow"
+        tools:layout="@layout/fragment_mission_follow" >
+        <action
+            android:id="@+id/action_mission_follow2_to_alarm_mission_setting"
+            app:destination="@id/alarm_mission_setting" />
     </fragment>
 </navigation>

@@ -55,21 +55,11 @@ class Alarm_settinga : Fragment() {
 
         setupNumberPickerForStringValues()
 
-        binding.timeAmpm.displayedValues
-        binding.timeHour.minValue = 1
-        binding.timeHour.maxValue = 12
-
-        binding.timeMinute.maxValue= 59
-        binding.timeMinute.minValue = 0
-
-        binding.timeAmpm.maxValue=1
-        binding.timeAmpm.minValue=0
 
         binding.missionSet.bringToFront()
         binding.mission2.bringToFront()
         binding.checkBox2.bringToFront()
-        binding.buttonMon.setOnClickListener{
-        }
+
     }
 
     override fun onDestroyView() {
@@ -103,6 +93,16 @@ class Alarm_settinga : Fragment() {
         numberPicker.maxValue = values.size - 1
         numberPicker.displayedValues = values
         numberPicker.wrapSelectorWheel = true
+
+        binding.timeHour.minValue = 1
+        binding.timeHour.maxValue = 12
+
+        binding.timeMinute.maxValue= 59
+        binding.timeMinute.minValue = 0
+
+        binding.timeAmpm.maxValue=1
+        binding.timeAmpm.minValue=0
+
     }
 }
 
